@@ -3,6 +3,37 @@
     padding: 0;
 }
 
-p {
+/* p {
     color: darkblue;
+} */
+
+body div section p,
+body div section h1 {
+    color: red;
+}
+
+.color-green {
+    color: green;
+}
+
+.main-content .reading {
+    font-style: italic;
+}
+
+.pai h1+p {
+    color: red;
+}
+
+.reading {
+    transition: all 1s ease-in-out;
+}
+
+.reading:hover {
+    background: yellow;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
 }

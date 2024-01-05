@@ -1,0 +1,25 @@
+p:not(.meio) {
+    color: blue
+}
+
+.chield li:nth-child(odd) {
+    background-color: rebeccapurple;
+}
+
+.chield li:nth-child(even) {
+    background-color: darkturquoise;
+}
+
+.pseudo li::after {
+    content: ' - ';
+}
+
+.pseudo1::first-letter {
+    font-size: 50px;
+    display: block;
+    float: left;
+}
+
+.pseudo1::first-line {
+    background: red;
+}
